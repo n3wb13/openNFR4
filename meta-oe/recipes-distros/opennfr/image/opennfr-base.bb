@@ -6,7 +6,7 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/LICENSE;md5=4d92cd373abda3937c2bc47fbc49d
 ALLOW_EMPTY_${PN} = "1"
 
 PV = "1.0"
-PR = "r17"
+PR = "r16"
 
 inherit packagegroup
 
@@ -16,7 +16,8 @@ RDEPENDS_${PN} = "\
     opennfr-bootlogo \
     opennfr-version-info \
     opennfr-base-files \
-    opennfr-settings \    
+    opennfr-settings \   
+    opennfr-missing \ 
     openssh-sftp-server \
     ntfs-3g \
     packagegroup-base-smbfs-client \
@@ -27,7 +28,7 @@ RDEPENDS_${PN} = "\
     exteplayer3 \
     gstplayer \
     ffmpeg \
-    enigma2-plugin-systemplugins-serviceapp \ 
+    enigma2-plugin-systemplugins-serviceapp \   
     python-imaging \
     python-requests \
     python-cfscrape \
@@ -40,4 +41,3 @@ RDEPENDS_${PN} = "\
     bash \
     enigma2-plugin-drivers-usbserial \ 
     "
-
